@@ -9,35 +9,102 @@
 </head>
 <body>
 
-  <header class="portada">
+  <header class="cabecera">
     <div class="contenedor">
-      <h1>NeuroLearning</h1>
-      <p>Aprende idiomas a tu ritmo, de una forma que se adapta a ti.</p>
-      <a class="boton" href="#quien-soy">Conoce el proyecto</a>
+      <a class="marca" href="#inicio">NeuroLearning</a>
+      <nav class="menu" aria-label="Menú principal">
+        <a class="enlace" href="#como-funciona">Cómo funciona</a>
+        <a class="enlace" href="#quien-soy">Quién soy</a>
+        <a class="enlace" href="#resenas">Reseñas</a>
+        <a class="boton" href="#como-funciona">Empezar</a>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <section id="quien-soy">
+  <main id="inicio">
+
+    <div class="portada">
       <div class="contenedor">
-        <h2>Quién soy</h2>
-        <p>Hola, soy [Sara]. [Desde siempre me han fascinado las formas en que el mundo puede doblarse con ternura para dar cabida a cada mente. Las adaptaciones pensadas para quienes viven con una disfunción neurológica me parecen pequeños puentes: no piden a nadie que cambie de orilla, sino que acercan la orilla a quien camina.</p>
-<p>Creo que aprender un idioma es abrir una ventana nueva en la casa de uno mismo, y que todas las personas merecen una ventana a su medida, con su propio ritmo, su propia luz y su propio paso.</p>]</p>
+        <div>
+          <span class="etiqueta">Próximamente</span>
+          <h1>Aprende idiomas a tu ritmo</h1>
+          <p class="intro">NeuroLearning adapta cada lección a tus necesidades, tus pausas y tu forma de aprender.</p>
+          <div class="acciones">
+            <a class="boton" href="#como-funciona">Descubre cómo funciona</a>
+            <a class="boton boton-sec" href="#quien-soy">Quién soy</a>
+          </div>
+        </div>
+        <img src="imagen1.jpg" alt="Descripción breve de la imagen 1">
       </div>
-    </section>
+    </div>
 
     <section>
-      <div class="contenedor">
-        <h2>Una app pensada para ti</h2>
-        <div class="galeria">
-          <img src="imagen1.jpg" alt="Descripción breve de la imagen 1">
-          <img src="imagen2.jpg" alt="Descripción breve de la imagen 2">
-          <img src="imagen3.jpg" alt="Descripción breve de la imagen 3">
+      <div class="contenedor centrado">
+        <h2>Pensada para cada mente</h2>
+        <p class="subtitulo">Una experiencia de aprendizaje clara, tranquila y que cambia contigo.</p>
+        <div class="tarjetas" style="text-align:left;">
+          <div class="tarjeta">
+            <div class="icono" aria-hidden="true">🧩</div>
+            <h3>Se adapta a ti</h3>
+            <p>Cuéntanos tus dificultades y la experiencia se ajusta a lo que necesitas.</p>
+          </div>
+          <div class="tarjeta">
+            <div class="icono" aria-hidden="true">⏳</div>
+            <h3>A tu ritmo</h3>
+            <p>Sin prisas ni presión. Tú decides cuánto y cuándo aprender.</p>
+          </div>
+          <div class="tarjeta">
+            <div class="icono" aria-hidden="true">🎨</div>
+            <h3>Diseño claro</h3>
+            <p>Pocas distracciones, letra legible y buen contraste.</p>
+          </div>
+          <div class="tarjeta">
+            <div class="icono" aria-hidden="true">💬</div>
+            <h3>Con ayuda de IA</h3>
+            <p>Un asistente que te acompaña y te lo pone más fácil.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="resenas">
+    <section id="como-funciona" class="fondo-suave">
+      <div class="contenedor centrado">
+        <h2>Cómo funciona</h2>
+        <p class="subtitulo">Tres pasos sencillos para empezar.</p>
+        <ol class="pasos" style="text-align:left;">
+          <li>
+            <div class="numero">1</div>
+            <h3>Elige un idioma</h3>
+            <p>Selecciona el idioma que quieres aprender.</p>
+          </li>
+          <li>
+            <div class="numero">2</div>
+            <h3>Cuéntanos tus dificultades</h3>
+            <p>Describe lo que te cuesta para que podamos adaptarnos a ti.</p>
+          </li>
+          <li>
+            <div class="numero">3</div>
+            <h3>Aprende a tu medida</h3>
+            <p>Recibe una experiencia personalizada, con el apoyo de la IA.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="quien-soy">
+      <div class="contenedor quien">
+        <img src="imagen2.jpg" alt="Descripción breve de la imagen 2">
+        <div>
+          <h2>Quién soy</h2>
+          <p>Hola, soy [TU NOMBRE].</p>
+          <p>Desde siempre me han fascinado las formas en que el mundo puede doblarse con ternura para dar cabida a cada mente. Las adaptaciones pensadas para quienes viven con una disfunción neurológica me parecen pequeños puentes: no piden a nadie que cambie de orilla, sino que acercan la orilla a quien camina.</p>
+          <p>Creo que aprender un idioma es abrir una ventana nueva en la casa de uno mismo, y que todas las personas merecen una ventana a su medida, con su propio ritmo, su propia luz y su propio paso.</p>
+          <p>NeuroLearning nace de esa idea: que cada mente aprende a su manera, y que esa manera siempre merece ser el punto de partida.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="resenas" class="fondo-suave">
       <div class="contenedor">
         <h2>Reseñas</h2>
 
@@ -55,6 +122,7 @@
         </div>
       </div>
     </section>
+
   </main>
 
   <footer>
